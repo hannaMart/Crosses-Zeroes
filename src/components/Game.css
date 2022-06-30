@@ -1,0 +1,18 @@
+.game{
+  width: 100%;
+  min-height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  animation-duration: 0.3s;
+  animation-name: gameOn;
+}
+@keyframes gameOn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
